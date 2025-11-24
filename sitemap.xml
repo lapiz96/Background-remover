@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://your-domain.com/</loc>
+        <lastmod>2024-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://your-domain.com/og-image.png</image:loc>
+            <image:title>AI Background Remover</image:title>
+            <image:caption>Free online background removal tool powered by RMBG 2.0</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Features Section -->
+    <url>
+        <loc>https://your-domain.com/#features</loc>
+        <lastmod>2024-11-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- How It Works -->
+    <url>
+        <loc>https://your-domain.com/#how-it-works</loc>
+        <lastmod>2024-11-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Pricing (if you add this section) -->
+    <url>
+        <loc>https://your-domain.com/#pricing</loc>
+        <lastmod>2024-11-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+</urlset>

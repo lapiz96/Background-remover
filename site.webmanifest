@@ -1,0 +1,60 @@
+{
+    "name": "BG Remover AI - Free Background Remover",
+    "short_name": "BG Remover",
+    "description": "Free AI-powered background removal tool using RMBG 2.0 technology. Remove backgrounds instantly with high quality results.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0a0a0f",
+    "theme_color": "#667eea",
+    "orientation": "any",
+    "scope": "/",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "productivity",
+        "photo",
+        "utilities"
+    ],
+    "shortcuts": [
+        {
+            "name": "Upload Image",
+            "short_name": "Upload",
+            "description": "Upload image to remove background",
+            "url": "/#upload",
+            "icons": [
+                {
+                    "src": "/icon-upload-96x96.png",
+                    "sizes": "96x96",
+                    "type": "image/png"
+                }
+            ]
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshot-desktop.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "platform": "wide",
+            "label": "BG Remover Desktop Interface"
+        },
+        {
+            "src": "/screenshot-mobile.png",
+            "sizes": "750x1334",
+            "type": "image/png",
+            "label": "BG Remover Mobile Interface"
+        }
+    ]
+}

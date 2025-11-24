@@ -1,0 +1,31 @@
+# robots.txt for BG Remover AI
+# Optimized for SEO - Allow all search engines
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /styles.css
+Allow: /script.js
+
+# Disallow admin paths if any (add as needed)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+# Allow search engines to crawl CSS and JS
+User-agent: Googlebot
+Allow: /*.css$
+Allow: /*.js$
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay (optional, set to 0 for faster indexing)
+Crawl-delay: 0
+
+# Sitemap location
+Sitemap: https://your-domain.com/sitemap.xml

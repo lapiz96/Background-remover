@@ -1,0 +1,19 @@
+{
+  "name": "bg-remover-ai",
+  "version": "1.0.0",
+  "description": "AI-powered background removal with RMBG 2.0 technology",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "backend": "python server.py",
+    "dev": "python server.py"
+  },
+  "keywords": [
+    "background-removal",
+    "ai",
+    "rmbg",
+    "image-processing",
+    "web-app"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
