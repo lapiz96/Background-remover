@@ -1,0 +1,24 @@
+# Ignore Python backend files (deploy to Render instead)
+server.py
+requirements.txt
+runtime.txt
+Procfile
+render.yaml
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Ignore deployment scripts
+start.bat
+deploy.bat
+deploy.sh
+
+# Ignore documentation
+*.md
+!README.md
+
+# Keep only frontend files for Vercel
+# vercel.json will specify what to deploy
