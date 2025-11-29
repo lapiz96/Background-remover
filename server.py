@@ -148,11 +148,14 @@ def remove_background_base64():
         return jsonify({'error': f'Failed to process image: {str(e)}'}), 500
 
 if __name__ == '__main__':
+    # Get port from environment variable (Render uses PORT env var)
+    port = int(os.environ.get('PORT', 5000))
+    
     print("="*50)
     print("🎨 BG Remover API Server")
     print("="*50)
     print("✓ Using rembg (U2Net) for background removal")
-    print("✓ Server starting on http://localhost:5000")
+    print(f"✓ Server starting on http://0.0.0.0:{port}")
     print("✓ API Endpoints:")
     print("  - GET  /api/health")
     print("  - POST /api/remove-background")
@@ -162,6 +165,6 @@ if __name__ == '__main__':
     # Run server
     app.run(
         host='0.0.0.0',
-        port=5000,
-        debug=True
+        port=port,
+        debug=False  # Disable debug in production
     )
